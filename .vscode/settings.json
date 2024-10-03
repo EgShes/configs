@@ -1,0 +1,18 @@
+{
+    "files.readonlyInclude": { // in your user/workspace settings.json
+        "../env/lib/python3.8/site-packages/**/*.py": true,
+        "../env/lib/python3.11/site-packages/**/*.py": true
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "ruff.format.args": [
+        "--config=/home/e.y.shestopalov/reserch-cv-ocr/.ruff.toml"
+    ],
+    "ruff.lint.args": [
+        "--config=/home/e.y.shestopalov/reserch-cv-ocr/.ruff.toml"
+    ],
+    "ruff.lint.run": "onSave",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    }
+}
