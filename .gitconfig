@@ -1,0 +1,6 @@
+[alias]
+    s = status
+    ap = add -p
+    dc = diff --cached
+    d = diff
+    lg = log --graph --abbrev-commit --decorate --date=relative --all
