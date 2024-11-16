@@ -14,5 +14,6 @@
     "ruff.lint.run": "onSave",
     "editor.codeActionsOnSave": {
         "source.organizeImports": "explicit"
-    }
+    },
+    "editor.selectionClipboard": false,  // disable mouse middle button paste 
 }
